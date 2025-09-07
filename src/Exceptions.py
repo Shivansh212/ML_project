@@ -14,13 +14,14 @@ def error_message_detail(error:Exception) -> str:
         return f"An error occurred: [{str(error)}]"
 
 class customException(Exception):
-    def _init_(self, error: Exception):
+    def __init__(self, error: Exception):
         formatted_message = error_message_detail(error)
-        super()._init_(formatted_message)
+        super().__init__(formatted_message)
         self.error_message = formatted_message
+        logging.error(self.error_message)
 
 
-    def _str_(self) -> str:
+    def __str__(self) -> str:
         return self.error_message
     
 
