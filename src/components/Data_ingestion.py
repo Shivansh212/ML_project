@@ -45,7 +45,7 @@ class DataIngestion:
                 self.ingestion_config.test_data_path
             )
         except Exception as e:
-            raise customException(e,sys)   
+            raise customException(e)   
         
 if __name__ == "__main__":
     obj = DataIngestion()
