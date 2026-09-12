@@ -4,11 +4,11 @@ This is a complete end-to-end Machine Learning project that predicts a student's
 
 The project includes data ingestion, data transformation, model training (with hyperparameter tuning), and a prediction pipeline, all wrapped in a web application and deployed on Render.
 
-**🚀 Live Demo:** **[https://ml-project-5-w2yn.onrender.com](https://ml-project-5-w2yn.onrender.com)**
+** Live Demo:** **[https://ml-project-5-w2yn.onrender.com](https://ml-project-5-w2yn.onrender.com)**
 
 ---
 
-## 📈 Project Pipeline
+##  Project Pipeline
 
 This project follows a standard ML pipeline:
 
@@ -43,7 +43,7 @@ This project follows a standard ML pipeline:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Python**
 * **Pandas & NumPy:** For data manipulation.
